@@ -3,3 +3,8 @@ C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\ItemObjects\bin\Relea
 C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\ItemObjects\obj\Release\ItemObjects.dll
 C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\ItemObjects\obj\Release\ItemObjects.pdb
 C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\ItemObjects\obj\Release\ItemObjects.csprojResolveAssemblyReference.cache
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\ItemObjects\bin\Release\ItemObjects.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\ItemObjects\bin\Release\ItemObjects.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\ItemObjects\obj\Release\ItemObjects.csprojResolveAssemblyReference.cache
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\ItemObjects\obj\Release\ItemObjects.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\ItemObjects\obj\Release\ItemObjects.pdb
