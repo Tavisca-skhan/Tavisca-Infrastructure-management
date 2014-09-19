@@ -1,0 +1,14 @@
+C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\ItemObjects.dll
+C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\ItemObjects.pdb
+C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\skhan\Desktop\New\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+C:\Users\ssakurde\Desktop\18\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\ssakurde\Desktop\18\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\ssakurde\Desktop\18\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\ItemObjects.dll
+C:\Users\ssakurde\Desktop\18\New\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\ItemObjects.pdb
+C:\Users\ssakurde\Desktop\18\New\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\ssakurde\Desktop\18\New\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\ssakurde\Desktop\18\New\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.pdb

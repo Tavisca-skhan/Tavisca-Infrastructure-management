@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354645637377</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>Airtel</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354645638710</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Idea</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 11:42:38 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354645637878</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>IdeaSSSSSSS</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP607</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 9:42:09 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354645639687</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Docomo</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 10:52:42 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Laptop</Name>
+    <UniqueID>lap6354645640832</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Dell</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:13:15 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Antivirus</Name>
+    <UniqueID>anv6354645642306</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Quickheal</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP604</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 9:42:29 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354645644483</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Windows7</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP604</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 1:37:07 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354645645218</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Windows8</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP611</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 9:41:36 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354645646586</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Linux</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:14:54 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354645647849</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>IOS</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP604</AssignedTo>
+    <DateOfExpiryOfAssignment>9/26/2014 11:41:32 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 11:42:11 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354645648769</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Vista</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP611</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 12:08:46 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>HeadPhone</Name>
+    <UniqueID>hep6354645650035</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>Sony</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP613</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 10:46:29 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664365262</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>sssssssssssssssss</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP603</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 1:32:15 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354664390094</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>yyyyyyyyyyuuuuuuuuuuu</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664404291</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>idea</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:15:59 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Laptop</Name>
+    <UniqueID>lap6354664405395</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>hp</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:16:38 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Antivirus</Name>
+    <UniqueID>anv6354664406835</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>ms</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:26:37 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354664408705</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>linux</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:28:49 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>HeadPhone</Name>
+    <UniqueID>hep6354664410012</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>sony</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:31:40 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>HeadPhone</Name>
+    <UniqueID>hep6354664411111</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>hp</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP611</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 1:09:31 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>HeadPhone</Name>
+    <UniqueID>hep6354664412149</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>samsung</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 6:45:52 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>HeadPhone</Name>
+    <UniqueID>hep6354664413060</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>htc</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>HeadPhone</Name>
+    <UniqueID>hep6354664413899</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>apple</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354664417290</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>windows</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/18/2014 7:02:39 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354664418118</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>windows8</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>OS_License</Name>
+    <UniqueID>OSL6354664419207</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>linux</Brand>
+    <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 1:13:13 PM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664451383</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>IDEA</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664452297</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>IDEA</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664452883</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>IDEA</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP604</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 9:27:32 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664453812</UniqueID>
+    <IsAssigned>True</IsAssigned>
+    <Brand>VODAFONE</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo>EMP614</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 9:01:21 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664455193</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>VODAFONE</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664456199</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>DOCOCO</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664456904</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>MTS</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664457652</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>MTS</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664458214</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>MTS</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664460155</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>relience</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664460934</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>relience</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664462232</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>relience</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+  <Item>
+    <Name>Dongle3G</Name>
+    <UniqueID>d3G6354664562482</UniqueID>
+    <IsAssigned>False</IsAssigned>
+    <Brand>dlink</Brand>
+    <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
+    <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
+    <WarrantyExists>True</WarrantyExists>
+    <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+  </Item>
+</Items>
