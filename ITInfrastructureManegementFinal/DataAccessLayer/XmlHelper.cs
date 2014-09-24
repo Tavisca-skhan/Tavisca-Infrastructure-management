@@ -30,7 +30,7 @@ namespace DataAccessLayer
             employeeFilePath = ConfigurationManager.AppSettings["employeeFilePath"];//x.EmployeeFilePath; 
         }
 
-        public List<string> ReadBrand(string itemType)
+        public List<string> GetBrand(string itemType)
         {
 
 
@@ -42,7 +42,7 @@ namespace DataAccessLayer
             return items.ToList<string>();
         }
 
-        public List<string> ReadItemId(string itemType, string brand)
+        public List<string> GetItemId(string itemType, string brand)
         {
 
             XElement xmlDoc = XElement.Load(productFilePath);
@@ -52,7 +52,7 @@ namespace DataAccessLayer
             return items.ToList<string>();
         }
 
-        public List<string> ReadEmployee()
+        public List<string> GetEmployee()
         {
             XElement xmlDoc = XElement.Load(employeeFilePath);
             var items = from item in xmlDoc.Descendants("Employee")
@@ -60,7 +60,7 @@ namespace DataAccessLayer
                         select item.Element("EmployeeId").Value;
             return items.ToList<string>();
         }
-        public string ReadEmpName(string empid)
+        public string GetEmpName(string empid)
         {
             string EmpName = "";
             XElement xmlDoc = XElement.Load(employeeFilePath);//(@"C:\Users\skhan\Desktop\C#_assignmnt\XMLfiles\Employee.xml");
@@ -108,7 +108,7 @@ namespace DataAccessLayer
             xmlDoc.Save(path);
         }
         //unassigned
-        public List<string> ReadAssignBrand(string itemType)
+        public List<string> GetAssignBrand(string itemType)
         {
 
             XElement xmlDoc = XElement.Load(productFilePath);
@@ -118,7 +118,7 @@ namespace DataAccessLayer
             return items.ToList<string>();
         }
         //unassiged
-        public List<string> ReadAssignedItemId(string itemType, string brand)
+        public List<string> GetAssignedItemId(string itemType, string brand)
         {
             XElement xmlDoc = XElement.Load(productFilePath);
             var items = from item in xmlDoc.Descendants("Item")
@@ -127,7 +127,7 @@ namespace DataAccessLayer
             return items.ToList<string>();
         }
         //unassigned
-        public void UnassignTo(string itemtype, string itembrand, string itemId)
+        public void UnassignProduct(string itemtype, string itembrand, string itemId)
         {
             XElement xmlDoc = XElement.Load(productFilePath);
             var items = from item in xmlDoc.Descendants("Item")
@@ -142,7 +142,7 @@ namespace DataAccessLayer
             xmlDoc.Save(productFilePath);
         }
         //Extend
-        public void ExtendTo(string itemtype, string itembrand, string itemId, string extendDate)
+        public void ExtendDate(string itemtype, string itembrand, string itemId, string extendDate)
         {
             XElement xmlDoc = XElement.Load(productFilePath);
             var items = from item in xmlDoc.Descendants("Item")
@@ -203,7 +203,7 @@ namespace DataAccessLayer
             xmlDoc.Save(productFilePath);
 
         }
-        public List<Item> ReadGridviewValues(string flag)
+        public List<Item> GetProdutcs(string flag)
         {
             Item itemInstance;
             var temp = new List<Item>();
@@ -237,7 +237,7 @@ namespace DataAccessLayer
             return temp;
         }
         //for search
-        public List<Item> ReadGridviewValues(string searchby, string text, string flag)
+        public List<Item> SearchProducts(string searchBy, string text, string flag)
         {
             Item itemInstance;
             var items = new List<XElement>();
@@ -246,13 +246,13 @@ namespace DataAccessLayer
             if (flag != "All")
             {
                 items = (from item in xmlDoc.Descendants("Item")
-                         where item.Element(searchby).Value.StartsWith(text, true, null) && item.Element("IsAssigned").Value == flag
+                         where item.Element(searchBy).Value.StartsWith(text, true, null) && item.Element("IsAssigned").Value == flag
                          select item).ToList();
             }
             else
             {
                 items = (from item in xmlDoc.Descendants("Item")
-                         where item.Element(searchby).Value.StartsWith(text, true, null)
+                         where item.Element(searchBy).Value.StartsWith(text, true, null)
 
                          select item).ToList();
             }
@@ -281,13 +281,13 @@ namespace DataAccessLayer
             }
             return temp;
         }
-        public List<Employee> ReadGridviewEmpValues(string searchby, string text)
+        public List<Employee> SearchEmployee(string searchBy, string text)
         {
             Employee emp;
-            var tempempList = new List<Employee>();
+            var tempEmpList = new List<Employee>();
             XElement xmlDoc = XElement.Load(employeeFilePath);
             var employees = (from employee in xmlDoc.Descendants("Employee")
-                             where employee.Element(searchby).Value.StartsWith(text)
+                             where employee.Element(searchBy).Value.StartsWith(text)
                              select employee).ToList();
             foreach (var item in employees)
             {
@@ -298,9 +298,9 @@ namespace DataAccessLayer
                 emp.Phone = item.Element("Phone").Value;
                 emp.Location = item.Element("Location").Value;
 
-                tempempList.Add(emp);
+                tempEmpList.Add(emp);
             }
-            return tempempList;
+            return tempEmpList;
         }
       
     }

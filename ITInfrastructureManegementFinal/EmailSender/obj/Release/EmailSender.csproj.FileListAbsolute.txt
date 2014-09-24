@@ -1,0 +1,12 @@
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\EmailSender.exe.config
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\EmailSender.exe
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\EmailSender.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\BusinessLogicLayer.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\ItemObjects.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\DataAccessLayer.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\BusinessLogicLayer.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\ItemObjects.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\bin\Release\DataAccessLayer.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\obj\Release\EmailSender.csprojResolveAssemblyReference.cache
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\obj\Release\EmailSender.exe
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\EmailSender\obj\Release\EmailSender.pdb

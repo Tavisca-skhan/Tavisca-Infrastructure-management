@@ -10,103 +10,107 @@ using System.Configuration;
 
 namespace BusinessLogicLayer
 {
-   public class ItemHelper
+    public class ItemHelper
     {
-       IDataHandler dataHandler;
+        IDataHandler dataHandler;
 
-       public ItemHelper()
-       {
-           string classNameStr = (string)ConfigurationSettings.AppSettings["selectedStorage"];
-           Type concreteType = Type.GetType(classNameStr);
+        public ItemHelper()
+        {
+            string classNameStr = ConfigurationSettings.AppSettings["selectedStorage"];
+            Type concreteType = Type.GetType(classNameStr);
 
-           this.dataHandler = (IDataHandler)Activator.CreateInstance(concreteType);
-       }
+            this.dataHandler = (IDataHandler)Activator.CreateInstance(concreteType);
+        }
         public void Save(Item item, string path)
         {
-           
+
             dataHandler.WriteToDb((Object)item, path, "Item");
         }
 
-        public  List<string> ReadBrand(string itemType)
+        public List<string> GetBrand(string itemType)
         {
-          
-            List<string> brandlist = dataHandler.ReadBrand(itemType);
+
+            List<string> brandlist = dataHandler.GetBrand(itemType);
 
             return brandlist;
         }
 
-        public  List<string> ReadEmployee()
+        public List<string> GetEmployee()
         {
-           
-            List<string> empList =dataHandler.ReadEmployee();
+
+            List<string> empList = dataHandler.GetEmployee();
 
             return empList;
 
         }
-        public  string ReadEmpName(string empid)
+        public string GetEmpName(string empId)
         {
-          
-            string empName = dataHandler.ReadEmpName(empid);
+
+            string empName = dataHandler.GetEmpName(empId);
             return empName;
         }
 
-        public  void AssignTo(string itemtype, string itembrand, string itemId, string tillDate, string empid)
+        public void AssignTo(string itemType, string itemBrand, string itemId, string tillDate, string empId)
         {
-          
-            dataHandler.AssignTo(itemtype, itembrand, itemId, tillDate, empid);
+
+            dataHandler.AssignTo(itemType, itemBrand, itemId, tillDate, empId);
         }
-        public  void Assign(string productID,string employeeID,DateTime expiredDate,bool isassign)
+        public void Assign(string productID, string employeeID, DateTime expiredDate, bool isAssign)
         {
-        
-            
-            dataHandler.AssignProduct(productID, employeeID, expiredDate, isassign);
-   
+
+
+            dataHandler.AssignProduct(productID, employeeID, expiredDate, isAssign);
+
         }
 
-        public  List<string> ReadItemId(string itemType, string brand)
+        public List<string> ReadItemId(string itemType, string brand)
         {
-            
-            List<string> idList = dataHandler.ReadItemId(itemType, brand);
+
+            List<string> idList = dataHandler.GetItemId(itemType, brand);
 
             return idList;
         }
 
         //unassigned
-        public void UnassignTo(string itemtype, string itembrand, string itemId)
-        {
-            
-            dataHandler.UnassignTo(itemtype, itembrand, itemId);
-        }
-        //Extend
-        public void ExtendTo(string itemtype, string itembrand, string itemId, string extendDate)
+        public void UnassignProduct(string itemtype, string itembrand, string itemId)
         {
 
-            dataHandler.ExtendTo(itemtype, itembrand, itemId, extendDate);
+            dataHandler.UnassignProduct(itemtype, itembrand, itemId);
+        }
+        //Extend
+        public void ExtendDate(string itemType, string itemBrand, string itemId, string extendDate)
+        {
+
+            dataHandler.ExtendDate(itemType, itemBrand, itemId, extendDate);
         }
         //unassiged
-        public List<string> ReadAssignedItemId(string itemType, string brand)
+        public List<string> GetAssignedItemId(string itemType, string brand)
         {
-           
-            List<string> idList = dataHandler.ReadAssignedItemId(itemType, brand);
+
+            List<string> idList = dataHandler.GetAssignedItemId(itemType, brand);
 
             return idList;
         }
-       public List<Item> ReadGridviewValues(string flag)
-       {
-          
-           return dataHandler.ReadGridviewValues(flag);     
-       }
-       //for Search
-        public List<Item> ReadGridviewValues(string searchby,string text,string flag)
+        public List<Item> GetProducts(string flag)
         {
-                 return dataHandler.ReadGridviewValues(searchby, text, flag); 
-         }
 
-        public List<Employee> ReadGridviewEmpValues(string searchby, string text)
+            return dataHandler.GetProdutcs(flag);
+        }
+        //for Search
+        public List<Item> SearchProducts(string searchBy, string text, string flag)
         {
-            return dataHandler.ReadGridviewEmpValues(searchby, text);
+            return dataHandler.SearchProducts(searchBy, text, flag);
         }
 
-        
-   }
+        public List<Employee> SearchEmployee(string searchBy, string text)
+        {
+            return dataHandler.SearchEmployee(searchBy, text);
+        }
+        public void ColorExpireAssign()
+        {
+        }
+
+
+
+    }
 }

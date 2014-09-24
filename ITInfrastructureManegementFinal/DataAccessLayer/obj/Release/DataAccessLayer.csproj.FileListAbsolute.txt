@@ -1,0 +1,7 @@
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\ItemObjects.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\DataAccessLayer\bin\Release\ItemObjects.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\DataAccessLayer\obj\Release\DataAccessLayer.pdb

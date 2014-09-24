@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmailsData>
+  <EmailData>
+    <ProductName>Dongle3G</ProductName>
+    <DeviceId>d3G6354645637377</DeviceId>
+    <Brand>Airtel</Brand>
+    <EmpName>Sushant</EmpName>
+    <SendTo>ssakurde@tavisca.com</SendTo>
+    <SendBy>skhan@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>1/1/0001 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Dongle3G</ProductName>
+    <DeviceId>d3G6354645637378</DeviceId>
+    <Brand>Airtel</Brand>
+    <EmpName>Sushant</EmpName>
+    <SendTo>ssakurde@tavisca.com</SendTo>
+    <SendBy>skhan@tavisca.com</SendBy>
+    <Status>expiryMailSend</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/24/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Dongle3G</ProductName>
+    <DeviceId>d3G6354683015795</DeviceId>
+    <Brand>Airtel</Brand>
+    <EmpName>Sushant</EmpName>
+    <SendTo>ssakurde@tavisca.com</SendTo>
+    <SendBy>skhan@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>1/1/0001 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Dongle3G</ProductName>
+    <DeviceId>6354700878102</DeviceId>
+    <Brand>Dlink</Brand>
+    <EmpName>Sushant</EmpName>
+    <SendTo>ssakurde@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Antivirus</ProductName>
+    <DeviceId>6354700894501</DeviceId>
+    <Brand>Kaspersky</Brand>
+    <EmpName>Swapnil</EmpName>
+    <SendTo>sdalvi@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Antivirus</ProductName>
+    <DeviceId>6354700894501</DeviceId>
+    <Brand>Kaspersky</Brand>
+    <EmpName>Vinita</EmpName>
+    <SendTo>vkadam@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>HeadPhone</ProductName>
+    <DeviceId>hep6354683041673</DeviceId>
+    <Brand>Sony</Brand>
+    <EmpName>Rahul </EmpName>
+    <SendTo>rbhosale@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>HeadPhone</ProductName>
+    <DeviceId>hep6354683041673</DeviceId>
+    <Brand>Sony</Brand>
+    <EmpName>shahbaz</EmpName>
+    <SendTo>skhan@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Antivirus</ProductName>
+    <DeviceId>6354700894501</DeviceId>
+    <Brand>Kaspersky</Brand>
+    <EmpName>Swapnil</EmpName>
+    <SendTo>sdalvi@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Antivirus</ProductName>
+    <DeviceId>6354700894501</DeviceId>
+    <Brand>Kaspersky</Brand>
+    <EmpName>shahbaz</EmpName>
+    <SendTo>skhan@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Dongle3G</ProductName>
+    <DeviceId>d3G6354683018693</DeviceId>
+    <Brand>Airtel</Brand>
+    <EmpName>Swapnil</EmpName>
+    <SendTo>sdalvi@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Dongle3G</ProductName>
+    <DeviceId>d3G6354698673168</DeviceId>
+    <Brand>Airtel</Brand>
+    <EmpName>Swapnil</EmpName>
+    <SendTo>sdalvi@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Laptop</ProductName>
+    <DeviceId>6354705944354</DeviceId>
+    <Brand>Dell</Brand>
+    <EmpName>Swapnil</EmpName>
+    <SendTo>sdalvi@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Laptop</ProductName>
+    <DeviceId>lap6354683038875</DeviceId>
+    <Brand>Toshiba</Brand>
+    <EmpName>Rahul </EmpName>
+    <SendTo>rbhosale@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Laptop</ProductName>
+    <DeviceId>lap6354683032138</DeviceId>
+    <Brand>Dell</Brand>
+    <EmpName>shahbaz</EmpName>
+    <SendTo>skhan@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Laptop</ProductName>
+    <DeviceId>lap6354683033814</DeviceId>
+    <Brand>Dell</Brand>
+    <EmpName>Swapnil</EmpName>
+    <SendTo>sdalvi@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>unassign</EmailType>
+    <AssignExpiryDate>9/20/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>HeadPhone</ProductName>
+    <DeviceId>hep6354683024146</DeviceId>
+    <Brand>Artis</Brand>
+    <EmpName>Abhijeet</EmpName>
+    <SendTo>akhadake@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/27/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Laptop</ProductName>
+    <DeviceId>lap6354683034513</DeviceId>
+    <Brand>Dell</Brand>
+    <EmpName>Swapnil</EmpName>
+    <SendTo>sdalvi@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/23/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+  <EmailData>
+    <ProductName>Laptop</ProductName>
+    <DeviceId>lap6354683033814</DeviceId>
+    <Brand>Dell</Brand>
+    <EmpName>Vinita</EmpName>
+    <SendTo>vkadam@tavisca.com</SendTo>
+    <SendBy>tkatariya@tavisca.com</SendBy>
+    <Status>send</Status>
+    <EmailType>assign</EmailType>
+    <AssignExpiryDate>9/23/2014 12:00:00 AM</AssignExpiryDate>
+  </EmailData>
+</EmailsData>

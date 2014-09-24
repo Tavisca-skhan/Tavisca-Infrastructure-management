@@ -16,41 +16,41 @@
   <Item>
     <Name>Dongle3G</Name>
     <UniqueID>d3G6354645638710</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>Idea</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP619</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 11:42:38 AM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>Dongle3G</Name>
     <UniqueID>d3G6354645637878</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>IdeaSSSSSSS</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP607</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 9:42:09 AM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>Dongle3G</Name>
     <UniqueID>d3G6354645639687</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>Docomo</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP619</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 10:52:42 AM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>Laptop</Name>
@@ -74,22 +74,22 @@
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP604</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 9:42:29 AM</AssignedDate>
+    <AssignedTo>EMP614</AssignedTo>
+    <DateOfExpiryOfAssignment>9/1/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 7:41:58 PM</AssignedDate>
   </Item>
   <Item>
     <Name>OS_License</Name>
     <UniqueID>OSL6354645644483</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>Windows7</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP604</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 1:37:07 PM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>OS_License</Name>
@@ -120,41 +120,41 @@
   <Item>
     <Name>OS_License</Name>
     <UniqueID>OSL6354645647849</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>IOS</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP604</AssignedTo>
-    <DateOfExpiryOfAssignment>9/26/2014 11:41:32 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 11:42:11 AM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>OS_License</Name>
     <UniqueID>OSL6354645648769</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>Vista</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP611</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/19/2014 12:08:46 PM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>HeadPhone</Name>
     <UniqueID>hep6354645650035</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>Sony</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>12/25/2019 11:59:59 PM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP613</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 10:46:29 AM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>Dongle3G</Name>
@@ -172,54 +172,54 @@
   <Item>
     <Name>OS_License</Name>
     <UniqueID>OSL6354664390094</UniqueID>
-    <IsAssigned>False</IsAssigned>
+    <IsAssigned>True</IsAssigned>
     <Brand>yyyyyyyyyyuuuuuuuuuuu</Brand>
     <CreationDate>9/14/2014 12:00:00 AM</CreationDate>
     <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/14/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo></AssignedTo>
-    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
-    <AssignedDate></AssignedDate>
+    <AssignedTo>EMP611</AssignedTo>
+    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 7:15:07 PM</AssignedDate>
   </Item>
   <Item>
     <Name>Dongle3G</Name>
     <UniqueID>d3G6354664404291</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>idea</Brand>
     <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
     <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP619</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 6:15:59 PM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>Laptop</Name>
     <UniqueID>lap6354664405395</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>hp</Brand>
     <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
     <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP619</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 6:16:38 PM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>Antivirus</Name>
     <UniqueID>anv6354664406835</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>ms</Brand>
     <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
     <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP619</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 6:26:37 PM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>OS_License</Name>
@@ -237,15 +237,15 @@
   <Item>
     <Name>HeadPhone</Name>
     <UniqueID>hep6354664410012</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>sony</Brand>
     <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
     <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP619</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 6:31:40 PM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>HeadPhone</Name>
@@ -263,28 +263,28 @@
   <Item>
     <Name>HeadPhone</Name>
     <UniqueID>hep6354664412149</UniqueID>
-    <IsAssigned>True</IsAssigned>
+    <IsAssigned>False</IsAssigned>
     <Brand>samsung</Brand>
     <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
     <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo>EMP619</AssignedTo>
-    <DateOfExpiryOfAssignment>9/16/2014 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>9/18/2014 6:45:52 PM</AssignedDate>
+    <AssignedTo></AssignedTo>
+    <DateOfExpiryOfAssignment></DateOfExpiryOfAssignment>
+    <AssignedDate></AssignedDate>
   </Item>
   <Item>
     <Name>HeadPhone</Name>
     <UniqueID>hep6354664413060</UniqueID>
-    <IsAssigned>False</IsAssigned>
+    <IsAssigned>True</IsAssigned>
     <Brand>htc</Brand>
     <CreationDate>9/18/2014 1:31:09 PM</CreationDate>
     <ActualExpiryDate>9/16/2014 12:00:00 AM</ActualExpiryDate>
     <WarrantyExists>True</WarrantyExists>
     <WarrantyExpiration>9/27/2014 12:00:00 AM</WarrantyExpiration>
-    <AssignedTo></AssignedTo>
-    <DateOfExpiryOfAssignment>1/1/0001 12:00:00 AM</DateOfExpiryOfAssignment>
-    <AssignedDate>1/1/0001 12:00:00 AM</AssignedDate>
+    <AssignedTo>EMP619</AssignedTo>
+    <DateOfExpiryOfAssignment>9/2/2014 12:00:00 AM</DateOfExpiryOfAssignment>
+    <AssignedDate>9/19/2014 7:41:05 PM</AssignedDate>
   </Item>
   <Item>
     <Name>HeadPhone</Name>

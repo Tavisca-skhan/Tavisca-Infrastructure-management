@@ -22,14 +22,15 @@ namespace Final1
     public partial class Form1 : Form
     {
         enum ProductName { Dongle3G = 1, Laptop, HeadPhone, OS_License, Antivirus, Application_License };
-        enum Dongle3GBrands {Airtel,Iball,Dlink,Idea};
-        enum LaptopBrand { Dell, Lenova,HP,Toshiba,Acer};
-        enum HeadPhoneBrands { Artis,Sony,Iball };
-        enum OS_LicenseBrands { Linux,Mac,Windows7};
-        enum AntivirusBrands { NPAV,Kaspersky };
+        enum Dongle3GBrands { Airtel, Iball, Dlink, Idea };
+        enum LaptopBrand { Dell, Lenova, HP, Toshiba, Acer };
+        enum HeadPhoneBrands { Artis, Sony, Iball };
+        enum OS_LicenseBrands { Linux, Mac, Windows7 };
+        enum AntivirusBrands { NPAV, Kaspersky };
         enum Application_LicenseBrands { VisualStudio, Eclipse };
-        enum  SearchProductBy{ Name = 1, Brand };
-        enum SearchEmployeeBy {Name=1,EmpID };
+        enum SearchProductBy { Name = 1, Brand };
+        enum SearchEmployeeBy { Name = 1, EmpID };
+         
 
         string PID, EID;
         string assigndate;
@@ -42,18 +43,19 @@ namespace Final1
         {
             itemhelper = new ItemHelper();
             InitializeComponent();
-            
+
             cmbSearchEmployee.SelectedIndex = 0;
             cmbSearchProduct.SelectedIndex = 0;
 
-             ItemObjects.XmlFiles x = new ItemObjects.XmlFiles();
-          x.ProductFilePath = ConfigurationManager.AppSettings["productFilePath"];
-         x.EmployeeFilePath = ConfigurationManager.AppSettings["employeeFilePath"];
-        
-        // myDataGridView.DataSource = myDataSet.Tables[0].DefaultView;
-          PID = "";
-          EID = "";
-          assigndate = "";
+            ItemObjects.XmlFiles x = new ItemObjects.XmlFiles();
+            x.ProductFilePath = ConfigurationManager.AppSettings["productFilePath"];
+            x.EmployeeFilePath = ConfigurationManager.AppSettings["employeeFilePath"];
+
+            PID = "";
+            EID = "";
+            assigndate = "";
+            
+
 
         }
         private void ItInfrastructureManagementLoad(object sender, EventArgs e)
@@ -61,9 +63,9 @@ namespace Final1
             DataSet myDataSet = new DataSet();
 
             itemhelper = new ItemHelper();
-           
+
             //ih = new ItemHelper();
-            dataGridProductView1.DataSource = itemhelper.ReadGridviewValues("False");
+            dataGridProductView1.DataSource = itemhelper.GetProducts("False");
             this.dataGridProductView1.Columns["AssignedTo"].Visible = false;
             this.dataGridProductView1.Columns["DateOfExpiryOfAssignment"].Visible = false;
             this.dataGridProductView1.Columns["AssignedDate"].Visible = false;
@@ -72,36 +74,44 @@ namespace Final1
             this.dataGridProductView1.Columns["ActualExpiryDate"].Visible = false;
 
 
-            dataGridAssignView.DataSource = itemhelper.ReadGridviewValues("True");
-            dataGridAssignView.Columns["IsAssigned"].Visible = false;
-            dataGridAssignView.Columns["DateOfExpiryOfAssignment"].Visible = true;
+            //dataGridAssignView.DataSource = itemhelper.GetProducts("True");
+            // dataGridAssignView.Columns["IsAssigned"].Visible = false;
+            //dataGridAssignView.Columns["DateOfExpiryOfAssignment"].Visible = true;
 
             DataSet my1DataSet = new DataSet();
             my1DataSet.ReadXml(ConfigurationManager.AppSettings["employeeFilePath"]);
-           dgvEmployee.DataSource=my1DataSet.Tables[0].DefaultView;
+            dgvEmployee.DataSource = my1DataSet.Tables[0].DefaultView;
 
-           DataSet my2DataSet = new DataSet();
-           my2DataSet.ReadXml(ConfigurationManager.AppSettings["productFilePath"]);
-           dgvDatailView.DataSource = my2DataSet.Tables[0].DefaultView;
+            DataSet my2DataSet = new DataSet();
+            my2DataSet.ReadXml(ConfigurationManager.AppSettings["productFilePath"]);
 
-           // dgvDatailView
+            dgvDatailView.DataSource = my2DataSet.Tables[0].DefaultView;
 
-           dataGridAssignView.DataSource = itemhelper.ReadGridviewValues("True");
+            // dgvDatailView
+            dataGridAssignView.DataSource = itemhelper.GetProducts("True");
+            Color1();
+
+           
+
+
+            // itemhelper.ColorExpireAssign(dataGridAssignView d);
+
             splitContainer1.Panel2Collapsed = true;
 
             //dataGridAssignView.Rows[0].Cells[0].Selected = false;
 
 
         }
-        
+
+
         private void btnUnassign_Click(object sender, EventArgs e)
         {
             itemhelper.Assign(PID, EID, DateTime.Now, false);
-             ItInfrastructureManagementLoad(null, null);
-            
+            ItInfrastructureManagementLoad(null, null);
+
         }
 
-      
+
         private void button_OK_Click(object sender, EventArgs e)
         {
             if (PID == "")
@@ -110,20 +120,20 @@ namespace Final1
             }
             else
             {
-               splitContainer1.Panel1Collapsed = true;
-               splitContainer1.Panel2Collapsed = false;
+                splitContainer1.Panel1Collapsed = true;
+                splitContainer1.Panel2Collapsed = false;
             }
-           // button_OK.Visible = false;
+            // button_OK.Visible = false;
             buttonBack.Visible = true;
         }
 
-        
+
         private void textProductSearchBox_TextChanged_1(object sender, EventArgs e)
         {
             string searchByValue = cmbSearchProduct.SelectedItem.ToString();
 
             string searchvalue = textProductSearchBox.Text;
-            dataGridProductView1.DataSource = itemhelper.ReadGridviewValues(searchByValue, searchvalue, "False");
+            dataGridProductView1.DataSource = itemhelper.SearchProducts(searchByValue, searchvalue, "False");
             //MessageBox.Show(searchByValue);
 
         }
@@ -132,55 +142,55 @@ namespace Final1
         {
             string searchBy = cmbSearchEmployee.SelectedItem.ToString();
             string searchvalue = textEmployeeSearchBox.Text;
-            dgvEmployee.DataSource = itemhelper.ReadGridviewEmpValues(searchBy, searchvalue);
+            dgvEmployee.DataSource = itemhelper.SearchEmployee(searchBy, searchvalue);
 
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             DateTime expiredDate = DTPExpireDate.Value;
-            
-                if (PID == "")
+
+            if (PID == "")
+            {
+                MessageBox.Show("please Select product");
+            }
+            else
+                if (EID == "")
                 {
-                     MessageBox.Show("please Select product");
-                 }
-                else
-                 if (EID == "")
-                 {
-                MessageBox.Show("please select Employee");
+                    MessageBox.Show("please select Employee");
                 }
-                 else
-                     if (expiredDate == DateTime.Now)
-                     {
-                         MessageBox.Show("please select proper date");
-                     }
-                     else
-                     {
-                         itemhelper.Assign(PID, EID, expiredDate, true);
-                         ItInfrastructureManagementLoad(null, null);
-                         splitContainer1.Panel1Collapsed = false;
-                        
-                         buttonSelect.Visible = true;
-                         EmailSender.EmailSend es = new EmailSender.EmailSend();
+                else
+                    if (expiredDate == DateTime.Now)
+                    {
+                        MessageBox.Show("please select proper date");
+                    }
+                    else
+                    {
+                        itemhelper.Assign(PID, EID, expiredDate, true);
+                        ItInfrastructureManagementLoad(null, null);
+                        splitContainer1.Panel1Collapsed = false;
 
-                          string Emailid = es.GetEmail(EID);//BusinessLogicLayer.Helper.GetEmail(empid);
+                        buttonSelect.Visible = true;
+                        EmailSender.EmailSend es = new EmailSender.EmailSend();
 
-                          MessageBox.Show("Item Assigned");
+                        string Emailid = es.GetEmail(EID);//BusinessLogicLayer.Helper.GetEmail(empid);
 
-                         es.SendMail(Emailid,false);
-                         PID = "";
-                         EID = "";
-                     }
+                        MessageBox.Show("Item Assigned");
+
+                        es.SendMail(Emailid, false);
+                        PID = "";
+                        EID = "";
+                    }
         }
 
-       
+
 
         private void btnExtend_Click(object sender, EventArgs e)
         {
             dTPExtendUpto.Visible = true;
             buttonSubmit.Visible = true;
             labelExtend.Visible = true;
-           
+
         }
 
 
@@ -190,7 +200,7 @@ namespace Final1
             buttonBack.Visible = false;
             splitContainer1.Panel1Collapsed = false;
             splitContainer1.Panel2Collapsed = true;
-            
+
 
         }
 
@@ -200,7 +210,7 @@ namespace Final1
         {
             cmbSearchEmployee.Items.Clear();
             string Itemname = cmbSearchProduct.SelectedItem.ToString();
-            List<string> BrandList = itemhelper.ReadBrand(Itemname);
+            List<string> BrandList = itemhelper.GetBrand(Itemname);
 
             foreach (var item in BrandList)
             {
@@ -216,15 +226,15 @@ namespace Final1
                 //cmbProductId.Items.Add(item);
             }
         }
-        
-       
 
-        
+
+
+
         private void SaveItembutton_Click(object sender, EventArgs e)
         {
 
 
-             if (cmbItem.SelectedItem == null)
+            if (cmbItem.SelectedItem == null)
             {
                 MessageBox.Show("Select Item!!");
             }
@@ -232,6 +242,7 @@ namespace Final1
             {
                 MessageBox.Show("Write Brand");
             }
+
             else
             {
                 Item d = null;
@@ -266,15 +277,16 @@ namespace Final1
                     d.Brand = cmbBrandName.SelectedItem.ToString();
                     d.CreationDate = CreationDateTimePicker.Value;
 
-                    d.ActualExpiryDate = ActualExpiryTimePicker.Value;
+                   // d.ActualExpiryDate = ActualExpiryTimePicker.Value;
+                   
 
                     d.WarrantyExpiration = WarrantyExpiryTimePicker.Value;
                     d.WarrantyExists = "True";
                     d.IsAssigned = "False";
                     itemhelper.Save(d, productFilePath);
                     MessageBox.Show("Item Added");
-                   // MessageBox.Show();
-                   
+                    // MessageBox.Show();
+
                     ItInfrastructureManagementLoad(null, null);
                 }
                 catch (Exception ex)
@@ -282,7 +294,7 @@ namespace Final1
                     MessageBox.Show(ex.Message);
                 }
             }
-        
+
         }
 
         private void textBoxUnassignText_TextChanged(object sender, EventArgs e)
@@ -305,11 +317,11 @@ namespace Final1
                 searchByValue = "AssignedTo";
             }
             string searchvalue = textBoxUnassignText.Text;
-            dataGridAssignView.DataSource = itemhelper.ReadGridviewValues(searchByValue, searchvalue, "True");
+            dataGridAssignView.DataSource = itemhelper.SearchProducts(searchByValue, searchvalue, "True");
 
         }
 
-       
+
         public void writeCSV(DataGridView gridIn, string outputFile)
         {
             //test to see if the DataGridView has any rows
@@ -361,7 +373,7 @@ namespace Final1
             }
         }
 
-       
+
         private void txtSearchDetail_TextChanged(object sender, EventArgs e)
         {
             string searchByValue = "";
@@ -382,7 +394,7 @@ namespace Final1
                 searchByValue = "AssignedTo";
             }
             string searchvalue = txtSearchDetail.Text;
-            dgvDatailView.DataSource = itemhelper.ReadGridviewValues(searchByValue, searchvalue, "All");
+            dgvDatailView.DataSource = itemhelper.SearchProducts(searchByValue, searchvalue, "All");
         }
 
         private void cmbSearchDetail_SelectedIndexChanged(object sender, EventArgs e)
@@ -454,10 +466,10 @@ namespace Final1
                 buttonSelect.Visible = false;
                 buttonBack.Visible = true;
             }
-          
+
         }
 
-       
+
 
         private void dgvDatailView_MouseHover(object sender, EventArgs e)
         {
@@ -468,7 +480,7 @@ namespace Final1
         private void dataGridProductView1_MouseHover(object sender, EventArgs e)
         {
             System.Windows.Forms.ToolTip abc1 = new System.Windows.Forms.ToolTip();
-            abc1.SetToolTip(this.dataGridProductView1 , "Click on row to select product");
+            abc1.SetToolTip(this.dataGridProductView1, "Click on row to select product");
         }
 
         private void dataGridProductView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -543,8 +555,60 @@ namespace Final1
         {
 
         }
- 
-        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label38_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridAssignView_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+
+        }
+        public void Color1()
+        {
+            for (int i = 0; i < dataGridAssignView.Rows.Count - 1; i++)
+            {
+                DataGridViewRow row = dataGridAssignView.Rows[i];
+
+                DateTime expireDate = Convert.ToDateTime(row.Cells["DateOfExpiryOfAssignment"].Value);
+                TimeSpan ts = expireDate - DateTime.Now;
+                if (ts.Days < 1)
+                {
+
+                    row.DefaultCellStyle.ForeColor = Color.Red;
+
+                }
+
+            }
+        }
+
+
     }
 }
      

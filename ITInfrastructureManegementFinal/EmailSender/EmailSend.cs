@@ -36,7 +36,7 @@ namespace EmailSender
                             where item.Element("IsAssigned").Value == "True" && IsExpire(Convert.ToDateTime(item.Element("DateOfExpiryOfAssignment").Value))
                             select item.Element("AssignedTo").Value;
 
-            // && i.Element("Brand").Value == itembrand && i.Element("UniqueID").Value == itemId
+            // && i.Element("Brand").Value == itemBrand && i.Element("UniqueID").Value == itemId
             //if (items != null)
            // {
                 foreach(var item in items)

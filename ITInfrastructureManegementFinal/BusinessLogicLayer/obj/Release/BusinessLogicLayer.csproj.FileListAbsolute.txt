@@ -1,0 +1,9 @@
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\bin\Release\BusinessLogicLayer.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\bin\Release\BusinessLogicLayer.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\bin\Release\DataAccessLayer.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\bin\Release\ItemObjects.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\bin\Release\ItemObjects.pdb
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\obj\Release\BusinessLogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\obj\Release\BusinessLogicLayer.dll
+C:\Users\skhan\Documents\GitHub\Tavisca-Infrastructure-management\ITInfrastructureManegementFinal\BusinessLogicLayer\obj\Release\BusinessLogicLayer.pdb
